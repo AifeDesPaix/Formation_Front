@@ -5,15 +5,136 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet/less" type="text/css" href="styles.less" />
+  <link rel="stylesheet/less" type="text/css" href="styles.less"/>
 
   <link rel="stylesheet" href="librairies/materialize/materialize.min.css">
   <script src="librairies/materialize/materialize.min.js"></script>
 
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Maxime Chabert . comme</title>
 
 </head>
-<body>
+<body class="sg">
+
+<div class="sgSidenav">
+  <header class="sgHeader blue-grey darken-4">
+    <img src="https://pbs.twimg.com/profile_images/872070332991107073/08k1WMr2_400x400.jpg" alt="">
+  </header>
+  <nav class="sgNav blue-grey darken-2">
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.html"><i class="material-icons left">accessible</i> Moi quand je mange</a></li>
+      <li><a href="badges.html"><i class="material-icons left">airline_seat_recline_extra</i> Moi quand je vomi</a></li>
+      <li><a href="collapsible.html"><i class="material-icons left">directions_subway</i> Ma tentative de suicide</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="sgSubmenu blue-grey lighten-5">
+  <h1>Bienvenue sur Chabert.com</h1>
+  <div class="sgSubmenu_btns">
+    <a class="waves-effect waves-light btn-floating btn-flat"><i class="material-icons left indigo-text">search</i></a>
+    <a class="waves-effect waves-light btn-floating btn-flat"><i class="material-icons left indigo-text">cloud</i></a>
+  </div>
+</div>
+<div class="sgContent blue-grey lighten-5">
+
+
+    <div class="col s12 m7">
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="http://static8.viadeo-static.com/RabAPb4glFkRGItomIWMyKjKHpw=/300x300/member/0021lcm9xjzmspzm%3Fts%3D1466513685000">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p> Je suis un étudiant passionné par le développement Web depuis tout jeune. Cette passion me pousse à effectuer une veille technologique constante et à m'investir dans la communauté Web de Lyon. </p>
+          </div>
+          <div class="card-action">
+            <a href="#" class="indigo-text">Je suis meilleur que Maxime Blanc</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="collection">
+    <a href="#!" class="collection-item"><span class="badge">1</span>JE</a>
+    <a href="#!" class="collection-item"><span class="new badge">4</span>NIKE</a>
+    <a href="#!" class="collection-item">TA</a>
+    <a href="#!" class="collection-item"><span class="badge">14</span>MERE</a>
+  </div>
+  <ul class="pagination">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="#!">2</a></li>
+    <li class="waves-effect"><a href="#!">3</a></li>
+    <li class="waves-effect"><a href="#!">4</a></li>
+    <li class="waves-effect"><a href="#!">5</a></li>
+    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
+
+  <div>
+    <input type="text" class="datepicker">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.datepicker');
+        var instances = M.Datepicker.init(elems);
+      });
+    </script>
+    <div class="chip">
+      Tag<i class="close material-icons">close</i>
+    </div>
+    <div class="chip">
+      Chien<i class="close material-icons">close</i>
+    </div>
+    <div class="chip">
+      Bites<i class="close material-icons">close</i>
+    </div>
+    <div class="chip">
+      Couscous<i class="close material-icons">close</i>
+    </div>
+  </div>
+
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          Je vérifie ton mail mdr
+          <div class="input-field inline">
+            <input id="email_inline" type="email" class="validate">
+            <label for="email_inline">Email</label>
+            <span class="helper-text" data-error="wrong" data-success="right">Donne ton mail pour un plan cul proche de chez toi</span>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</div>
 
 <script src="librairies/less.js"></script>
 </body>

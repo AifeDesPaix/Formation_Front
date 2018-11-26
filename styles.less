@@ -1,0 +1,80 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sg {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 64px 1fr;
+  grid-template-areas: "nav header" "nav content";
+
+  &Submenu {
+    grid-area: header;
+    background-color: #00aa0a;
+  }
+  &Sidenav {
+    grid-area: nav;
+    background-color: #aa3070;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+  }
+  &Content {
+    grid-area: content;
+    //background-color: #1b50aa;
+    padding: 10px;
+  }
+  &First {
+    grid-area: first;
+    //background-color: #ff0344;
+    display: flex;
+  }
+  &Second {
+    background-color: #10ff00;
+    grid-area: second;
+  }
+  &Third {
+    grid-area: third;
+    background-color: #0044ff;
+  }
+  &Fourth {
+    grid-area: fourth;
+    background-color: #00fff2;
+  }
+
+  &Header {
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &Nav {
+    width: 100%;
+    height: 100%;
+
+    ul {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      li a {
+        padding: 0 20px;
+      }
+    }
+  }
+  &Submenu {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+
+    h1 {
+      margin: 5px;
+      font-size: 30px;
+    }
+  }
+}
