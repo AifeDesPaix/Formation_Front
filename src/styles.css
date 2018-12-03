@@ -1,0 +1,36 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mcJapan {
+    object-fit: contain;
+    width: 100%;
+}
+
+.mcBeau-gosse {
+    width: 100%;
+    height: calc(100% - 66px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
