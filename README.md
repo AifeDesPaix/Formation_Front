@@ -14,6 +14,7 @@ Tu vas sur ton bureau, tu fais clic droit et gtu clic sur `git bash here`
 
 # Télécharger les sources
 ``git clone https://github.com/AifeDesPaix/Formation_Front.git``
+``cd Formation_Front``
 
 # Installer les dépendances
 ``yarn``
