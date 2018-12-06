@@ -13,12 +13,12 @@ Tu vas sur ton bureau, tu fais clic droit et gtu clic sur `git bash here`
 ça va t'ouvrir un console, dedans tu dois écrire des trucs :
 
 # Télécharger les sources
-``git clone https://github.com/AifeDesPaix/Formation_Front.git``
-``cd Formation_Front``
+- ``git clone https://github.com/AifeDesPaix/Formation_Front.git``
+- ``cd Formation_Front``
 
 # Installer les dépendances
-``yarn``
+- ``yarn``
 
 # Lancer le projet
-``yarn start``
+- ``yarn start``
 
