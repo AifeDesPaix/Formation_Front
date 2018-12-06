@@ -1,9 +1,23 @@
-# Uéche le front
-- Le site a reproduire est : https://getmdl.io/templates/dashboard/index.html
-- La doc material : https://materializecss.com/about.html#
-- Atomic design : https://medium.com/@audreyhacq/l-atomic-design-une-m%C3%A9thode-de-co-creation-prometteuse-bd9d5fc2b2ad
-- BEM : https://putaindecode.io/fr/articles/css/bem/ (perso, j'utilise la syntanxe suivante : BLOC_ELEMENT-MODIFIER)
+# Pour lancer le projet, il faut installer :
+- git : https://git-scm.com/downloads
+- nodejs : https://nodejs.org/en/ (version 11.3 c'est mieux c'ets la dernière lol)
+- yarn : https://yarnpkg.com/fr/
 
-# Site tout con et léger.
+Git ça permet de versionner le code, et donc de récupérer le code source rapidement
+Nodejs, ça permet de fairetourner un petit programme qui va gérer le code et tout charger très vite (parcel : https://parceljs.org/)
+Yarn : ça permet d'installer les bouts de codes qui vont être exécutés par node js.
 
-- Remplacer les graphiques par de champs input en type material (histoire de savoir les utiliser)
+
+Quand tout est installé, on prépare le projet :
+Tu vas sur ton bureau, tu fais clic droit et gtu clic sur `git bash here`
+ça va t'ouvrir un console, dedans tu dois écrire des trucs :
+
+# Télécharger les sources
+``git clone https://github.com/AifeDesPaix/Formation_Front.git``
+
+# Installer les dépendances
+``yarn``
+
+# Lancer le projet
+``yarn start``
+
